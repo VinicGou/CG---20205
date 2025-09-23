@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bresenham para Circunferências com WebGL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Algoritmo de Bresenham para Circunferências</h1>
+    <div id="container">
+        <canvas id="glCanvas" width="800" height="600"></canvas>
+        <div id="instructions">
+            <h2>Controles</h2>
+            <p><strong>Ação:</strong> <span id="current-action">Aguardando 1º clique (centro)</span></p>
+            <ul>
+                <li><strong>1º Clique:</strong> Define o <strong>centro</strong> da circunferência.</li>
+                <li><strong>2º Clique:</strong> Define um ponto na borda para determinar o <strong>raio</strong>.</li>
+            </ul>
+            <p>Após o segundo clique, a circunferência será desenhada e o processo reiniciado.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

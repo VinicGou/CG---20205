@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3 - Retas e Triângulos com WebGL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Exercício 3: Bresenham com WebGL</h1>
+    <div id="container">
+        <canvas id="glCanvas" width="800" height="600"></canvas>
+        <div id="instructions">
+            <h2>Controles</h2>
+            <p><strong>Modo Atual:</strong> <span id="current-mode">Desenhar Reta</span></p>
+            <ul>
+                <li><strong>'R' ou 'r'</strong>: Ativa o modo de desenhar <strong>Retas</strong> (2 cliques).</li>
+                <li><strong>'T' ou 't'</strong>: Ativa o modo de desenhar <strong>Triângulos</strong> (3 cliques).</li>
+                <li><strong>'K' ou 'k'</strong>: Ativa o modo de alterar a <strong>Cor</strong> (pressione 0-9).</li>
+                <li><strong>'E' ou 'e'</strong>: Ativa o modo de alterar a <strong>Espessura</strong> (pressione 1-9).</li>
+            </ul>
+            <p>Clique com o botão esquerdo no canvas para definir os pontos.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
